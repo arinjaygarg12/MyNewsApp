@@ -33,7 +33,7 @@ function App(){
           <Routes>
             <Route
               exact
-              path="/"
+              path="/MyNewsApp"
               element={
                 <News setProgress = {setProgres}
                   key="general"
@@ -47,7 +47,7 @@ function App(){
             />
             <Route
               exact
-              path="/business"
+              path="/MyNewsApp/business"
               element={
                 <News setProgress = {setProgres}
                   key="business"
@@ -61,7 +61,7 @@ function App(){
             />
             <Route
               exact
-              path="/general"
+              path="/MyNewsApp/general"
               element={
                 <News setProgress = {setProgres}
                   key="general"
@@ -75,7 +75,7 @@ function App(){
             />
             <Route
               exact
-              path="/entertainment"
+              path="/MyNewsApp/entertainment"
               element={
                 <News setProgress = {setProgres}
                   key="entertainment"
@@ -89,7 +89,7 @@ function App(){
             />
             <Route
               exact
-              path="/health"
+              path="/MyNewsApp/health"
               element={
                 <News setProgress = {setProgres}
                   key="health"
@@ -103,7 +103,7 @@ function App(){
             />
             <Route
               exact
-              path="/science"
+              path="/MyNewsApp/science"
               element={
                 <News setProgress = {setProgres}
                   key="science"
@@ -117,7 +117,7 @@ function App(){
             />
             <Route
               exact
-              path="/sports"
+              path="/MyNewsApp/sports"
               element={
                 <News setProgress = {setProgres}
                   key="sports"
